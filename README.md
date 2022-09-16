@@ -17,10 +17,10 @@ Java library:
 ## Releases
 
 The latest release is available
-on [Maven Central](https://search.maven.org/artifact/io.github.2bllw8/demiurge/1.0.0/jar).
+on [Maven Central](https://search.maven.org/artifact/io.github.2bllw8/demiurge/1.0.0-alpha01/jar).
 
 ```groovy
-implementation 'io.github.2bllw8:demiurge:1.0.0'
+implementation 'io.github.2bllw8:demiurge:1.0.0-alpha01'
 ```
 
 ## Usage
