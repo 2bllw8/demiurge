@@ -15,10 +15,10 @@ function main {
   local OLD_VERSION="$1"
   local NEW_VERSION="$2"
 
-  sed -i "s/version = '${OLD_VERSION}'/version = '${NEW_VERSION}'/" lib/build.gradle
+  sed -i "s/version = '${OLD_VERSION}'/version = '${NEW_VERSION}'/" build.gradle
   sed -i "s/${OLD_VERSION}/${NEW_VERSION}/" README.md
 
-  git add README.md lib/build.gradle
+  git add README.md build.gradle
   git commit -m "Version ${NEW_VERSION}"
   git tag "${NEW_VERSION}"
 }
